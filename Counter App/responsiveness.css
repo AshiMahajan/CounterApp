@@ -1,0 +1,102 @@
+@media (min-width: 2560px){
+
+}
+
+@media (min-width: 1104px){
+
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 947px){
+
+}
+
+@media (max-width: 690px){
+
+}
+
+@media (max-width: 570px){
+    h2 {
+        font-size: 360px !important;
+    }
+    #increment-btn img, #decrement-btn img{
+        width: 165% ;
+    }
+    #increment-btn{
+        left: 2em;
+    }
+    #decrement-btn{
+        right: 2em;
+    }
+    .info{
+        left: 40%;
+        width: 10%;
+    }
+    .reset{
+        left: 60%;
+        width: 10%;
+    }
+}
+
+
+@media (max-width: 768px){
+    #increment-btn img, #decrement-btn img, .info img, .reset img{
+        filter: none;
+    }
+    .info{
+        left: 40%;
+    }
+    .reset{
+        left: 60%;
+    }
+}
+
+@media (max-width: 425px) {
+    h2 {
+        font-size: 300px !important;
+    }
+    #increment-btn img, #decrement-btn img{
+        width: 165% !important;
+    }
+    #increment-btn{
+        left: 2em;
+    }
+    #decrement-btn{
+        right: 2em;
+    }
+    .info{
+        left: 35%;
+        width: 9%;
+    }
+    .reset{
+        left: 65%;
+        width: 9%;
+    }
+}
+@media (max-width: 376px){
+    h2{
+        font-size: 250px !important;
+    }
+}
+
+@media (max-width: 345px) {
+
+}
+ 
+@media (max-width: 320px){
+    #increment-btn{
+        left: 0.6em;
+    }
+    #decrement-btn{
+        right: 0.6em;
+    }
+    #increment-btn img, #decrement-btn img{
+        width: 255% !important;
+    }
+}
+
+@media (max-width: 281px){
+
+}
